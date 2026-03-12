@@ -31,7 +31,7 @@ end
 % MATLAB'ın hazır exp(x) fonksiyonu ile gerçek değeri hesaplama
 gercek_deger = exp(x);
 
-% Sonuçları ekrana yazdırma
+% Sonuç
 disp(["Taylor serisi sonucu : " num2str(taylor_sonuc)]);
 disp(["Gerçek exp(x) değeri : " num2str(gercek_deger)]);
 
@@ -92,3 +92,4 @@ ylabel("f(x)");
 
 % Grafiğe kareli arka plan ekleme
 grid on
+
