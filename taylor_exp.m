@@ -35,8 +35,9 @@ gercek_deger = exp(x);
 disp(["Taylor serisi sonucu : " num2str(taylor_sonuc)]);
 disp(["Gerçek exp(x) değeri : " num2str(gercek_deger)]);
 
-% Grafik çizimi için x değerleri oluşturma (-2 ile 2 arasında)
-x_degerleri = -2:0.1:2;
+% Grafik çizimi için x değerleri oluşturma 
+
+x_degerleri = -4:0.1:4;
 
 % Taylor serisi grafiğini tutacak boş dizi oluşturma
 taylor_grafik = zeros(size(x_degerleri));
